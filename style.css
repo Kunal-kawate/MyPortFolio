@@ -1,0 +1,279 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: rgb(255, 255, 255) url("Pictures/Rhombus.gif") no-repeat center ;
+    z-index: 10;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    margin: 1vw;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box1 {
+    /* background-color: aqua; */
+    height: 40vw;
+    width: 49vw;
+    /* border: 2px solid black; */
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    /* background-color: aqua; */
+    height: 40vw;
+    width: 50vw;
+    /* border: 2px solid black; */
+}
+
+.profile {
+    width: 35vw;
+    float: right;
+}
+
+.box1 p {
+    font-family: 'Lobster', cursive;
+    font-size: 10vw;
+}
+
+.in-hr {
+    margin: 20px;
+}
+
+.foot {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot p {
+    font-size: 16px;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skillBox{
+    /* background-color: #4CAF50; Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0 2vw 0 2vw;
+    border-radius: 5px;
+    transition: transform .25s;
+}
+
+.skillBox:hover {
+    transform: scale(1.09);
+}
+.cl1{
+    background-color:  #4CAF50;
+}
+
+.cl2{
+    background-color:  #ff3399;
+}
+
+.cl3{
+    background-color:   #008CBA;
+}
+
+.cl4{
+    background-color:  #555555;
+}
+
+.cl5{
+    background-color:  #ff0066;
+}
+
+p{
+    font-size: 20px;
+}
+
+.mid-hr{
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+.about{
+    /* background-color: aqua; */
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.lines{
+    width: 60vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+}
+
+.about-lines{
+    text-indent: 10vw;
+    text-align: justify;
+}
+
+.cards{
+    background-color: #ff3399;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.inner-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    padding: 3vw;
+}
+
+/* xxxxx */
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 1em;
+    text-align: center;
+    font-family: arial;
+    background-color: white;
+    transition: transform .25s;
+    border: 2px solid black;
+}
+
+.card:hover {
+    transform: scale(1.09);
+}
+
+.card-link{
+    color: black;
+    text-decoration: none;
+}
+
+.bottom-hr{
+    padding: 1vw;
+}
+
+.contact-logo{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.insta{
+    margin: 2vw;
+}
+
+.linkedin{
+    margin: 2vw;
+}
+@media screen and (max-width:810px) {
+
+    .container1 {
+        display:flex;
+        flex-wrap:wrap-reverse;
+        justify-content: center;
+    }
+
+    .box1{
+        height: 50vw;
+        width: 50vw;
+    }
+
+    .box2 {
+        height: 80vw;
+        width: 100vw;
+    }
+
+    .profile {
+        width: 75vw;
+    }
+
+    .header{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+    
+    li{
+        font-size: 7vw;
+    }
+    
+    .foot p{
+        font-size: 13px;
+    }
+
+    .skillBox{
+        margin: 2vw 2vw 2vw 2vw;
+    }
+
+    .lines{
+        width: 80vw;
+    }
+    
+    .contact-logo{
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-height:1800px){
+    .cards{
+        height: auto;
+    }
+
+    .card{
+        max-width: 30vh;
+        margin-top: 10vh;
+    }
+
+    .name{
+        font-size: xx-large;
+    }
+}
+
+
+
+
